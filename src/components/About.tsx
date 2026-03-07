@@ -6,9 +6,10 @@ const About = () => {
       <div className="about-me">
         <h3 className="title">About Me</h3>
         <p className="para">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
-          dolores numquam iusto Ratione earum ducimus autem id iure pariatur
-          dolorum quae maiores.
+          I'm a passionate Full Stack Developer based in India with expertise in building modern web applications. 
+          I love turning complex problems into simple, beautiful, and intuitive solutions. 
+          With a strong foundation in both frontend and backend technologies, I create seamless 
+          user experiences that make a difference.
         </p>
       </div>
     </div>
