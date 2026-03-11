@@ -3,6 +3,7 @@ import WorkImage from "./WorkImage";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
+import { getBasePath } from "../utils/basePath";
 
 gsap.registerPlugin(useGSAP);
 
@@ -11,31 +12,31 @@ const projects = [
     name: "Library Management",
     category: "Full-Stack Web App",
     tools: "Laravel, MySQL, PHP",
-    image: "/images/library.png",
+    image: getBasePath("/images/library.png"),
   },
   {
     name: "YT Checker",
     category: "AI Analysis Tool",
     tools: "Node.js, YouTube API, Gemini AI",
-    image: "/images/yt-checker.png",
+    image: getBasePath("/images/yt-checker.png"),
   },
   {
     name: "Leads Generator",
     category: "Automation Scraper",
     tools: "Node.js, Playwright, Express",
-    image: "/images/raj-leads.png",
+    image: getBasePath("/images/raj-leads.png"),
   },
   {
     name: "Music App",
     category: "Mobile App",
     tools: "Flutter, Dart, Provider",
-    image: "/images/raj-music.jpeg",
+    image: getBasePath("/images/raj-music.jpeg"),
   },
   {
     name: "Health AI Assistant",
     category: "AI Health Assistant",
     tools: "PHP, Laravel, Gemini AI, MySQL",
-    image: "/images/health-ai.png",
+    image: getBasePath("/images/health-ai.png"),
   },
 ];
 

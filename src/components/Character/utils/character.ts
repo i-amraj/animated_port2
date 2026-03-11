@@ -1,6 +1,7 @@
 import * as THREE from "three";
 import { DRACOLoader, GLTF, GLTFLoader } from "three-stdlib";
 import { setCharTimeline, setAllTimeline } from "../../utils/GsapScroll";
+import { getBasePath } from "../../../utils/basePath";
 
 // Character position offset
 const CHARACTER_Y_OFFSET = -0.7;
@@ -57,7 +58,7 @@ const setCharacter = (
 ) => {
   const loader = new GLTFLoader();
   const dracoLoader = new DRACOLoader();
-  dracoLoader.setDecoderPath("/draco/");
+  dracoLoader.setDecoderPath(getBasePath("/draco/"));
   loader.setDRACOLoader(dracoLoader);
 
   const loadCharacter = () => {
@@ -65,7 +66,7 @@ const setCharacter = (
       try {
         let character: THREE.Object3D;
         loader.load(
-          "/models/raj.glb",  // Original model - pose applied at runtime
+          getBasePath("/models/raj.glb"),  // Original model - pose applied at runtime
           async (gltf) => {
             character = gltf.scene;
 
