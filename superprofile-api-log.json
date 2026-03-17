@@ -1,0 +1,302 @@
+[
+  {
+    "method": "POST",
+    "url": "https://eventstream-gateway.cosmofeed.com/api/streams/",
+    "postData": "{\"data\":{\"cosmoUser\":false,\"pageType\":\"signin_page_view\",\"action\":\"visit\",\"device\":\"desktop\",\"referrer\":\"unknown\",\"timestamp\":\"2026-03-16T11:26:59.301Z\"},\"multi\":false,\"env\":\"prod\",\"messageType\":\"platform_activity_analytics\"}"
+  },
+  {
+    "method": "GET",
+    "url": "https://prod.api.cosmofeed.com/api/site/get_geo_details",
+    "postData": null
+  },
+  {
+    "method": "GET",
+    "url": "https://accounts.google.com/o/oauth2/iframerpc?action=checkOrigin&origin=https%3A%2F%2Fsuperprofile.bio&client_id=864831161474-15v8vej5uc9hjvl64huo3kcbmdnp4ajj.apps.googleusercontent.com&fedcm_enabled=true",
+    "postData": null
+  },
+  {
+    "method": "POST",
+    "url": "https://prod.api.cosmofeed.com/api/user/authenticate",
+    "postData": "{\"phoneNumber\":\"6306206519\",\"countryCode\":\"+91\",\"authScreen\":\"signin-screen\"}"
+  },
+  {
+    "method": "POST",
+    "url": "https://prod.api.cosmofeed.com/api/user/authenticate",
+    "postData": "{\"phoneNumber\":\"6306206519\",\"countryCode\":\"+91\",\"otp\":\"153819\",\"referralCode\":\"\",\"referralType\":\"\",\"source\":\"\",\"creatorSelectedCountry\":{\"value\":\"IN\",\"label\":\"India\",\"code\":\"+91\",\"format\":\"+.. .....-.....\"},\"authScreen\":\"signin-screen\",\"queryParams\":{}}"
+  },
+  {
+    "method": "GET",
+    "url": "https://prod.api.cosmofeed.com/api/user/getUserData",
+    "postData": null
+  },
+  {
+    "method": "POST",
+    "url": "https://eventstream-gateway.cosmofeed.com/api/streams/",
+    "postData": "{\"data\":{\"cosmoUser\":true,\"creatorId\":\"69b7ceafe1ea6a00154d46e2\",\"pageType\":\"signin_page_view\",\"action\":\"visit\",\"device\":\"desktop\",\"referrer\":\"unknown\",\"timestamp\":\"2026-03-16T11:27:25.724Z\"},\"multi\":false,\"env\":\"prod\",\"messageType\":\"platform_activity_analytics\"}"
+  },
+  {
+    "method": "GET",
+    "url": "https://prod.api.cosmofeed.com/api/saas/get_cosmo_plans_data",
+    "postData": null
+  },
+  {
+    "method": "GET",
+    "url": "https://prod.api.cosmofeed.com/api/saas/get_active_cosmo_plan_details",
+    "postData": null
+  },
+  {
+    "method": "GET",
+    "url": "https://cdn.cosmofeed.com/_next/static/css/67a81df562ce40de.css",
+    "postData": null
+  },
+  {
+    "method": "GET",
+    "url": "https://superprofile.bio/_next/data/dRyUS4XUEDbhvucybGxB_/creator.json?source=",
+    "postData": null
+  },
+  {
+    "method": "POST",
+    "url": "https://eventstream-gateway.cosmofeed.com/api/streams/",
+    "postData": "{\"data\":{\"cosmoUser\":true,\"creatorId\":\"69b7ceafe1ea6a00154d46e2\",\"pageType\":\"creator_home_view\",\"action\":\"visit\",\"device\":\"desktop\",\"referrer\":\"unknown\",\"timestamp\":\"2026-03-16T11:27:26.820Z\"},\"multi\":false,\"env\":\"prod\",\"messageType\":\"platform_activity_analytics\"}"
+  },
+  {
+    "method": "GET",
+    "url": "https://prod.api.cosmofeed.com/api/wallet/referral/creator/details",
+    "postData": null
+  },
+  {
+    "method": "GET",
+    "url": "https://prod.api.cosmofeed.com/api/adm/list_auto_dms?submissionType=0&page=1&limit=1",
+    "postData": null
+  },
+  {
+    "method": "POST",
+    "url": "https://prod.api.cosmofeed.com/api/wallet/get_all_products_analytics_details",
+    "postData": "{\"range\":\"lifetime\",\"timezone\":\"Asia/Calcutta\"}"
+  },
+  {
+    "method": "GET",
+    "url": "https://prod.api.cosmofeed.com/api/superProfile/",
+    "postData": null
+  },
+  {
+    "method": "GET",
+    "url": "https://prod.api.cosmofeed.com/api/site/get_upcoming_bookings_events",
+    "postData": null
+  },
+  {
+    "method": "GET",
+    "url": "https://prod.api.cosmofeed.com/api/site/get_creator_product_analytics",
+    "postData": null
+  },
+  {
+    "method": "GET",
+    "url": "https://prod.api.cosmofeed.com/api/site/get_learn_more_and_banner_details",
+    "postData": null
+  },
+  {
+    "method": "GET",
+    "url": "https://prod.api.cosmofeed.com/api/oo/check-session-booked?sessionId=67134f66b6099e0013e4b179",
+    "postData": null
+  },
+  {
+    "method": "GET",
+    "url": "https://prod.api.cosmofeed.com/api/saas/get_earning_in_saas_trial",
+    "postData": null
+  },
+  {
+    "method": "GET",
+    "url": "https://prod.api.cosmofeed.com/api/user/getStartedTodos",
+    "postData": null
+  },
+  {
+    "method": "GET",
+    "url": "https://prod.api.cosmofeed.com/api/adm/get_ongoing_meta_issue",
+    "postData": null
+  },
+  {
+    "method": "GET",
+    "url": "https://prod.api.cosmofeed.com/api/adm/get_ongoing_meta_issue",
+    "postData": null
+  },
+  {
+    "method": "GET",
+    "url": "https://prod.api.cosmofeed.com/api/superProfile/",
+    "postData": null
+  },
+  {
+    "method": "GET",
+    "url": "https://prod.api.cosmofeed.com/api/user/getUserData",
+    "postData": null
+  },
+  {
+    "method": "GET",
+    "url": "https://prod.api.cosmofeed.com/api/adm/get_instagram_details",
+    "postData": null
+  },
+  {
+    "method": "POST",
+    "url": "https://eventstream-gateway.cosmofeed.com/api/streams/",
+    "postData": "{\"data\":{\"cosmoUser\":true,\"creatorId\":\"69b7ceafe1ea6a00154d46e2\",\"pageType\":\"app_autoDm_view\",\"action\":\"visit\",\"device\":\"desktop\",\"referrer\":\"unknown\",\"timestamp\":\"2026-03-16T11:27:29.348Z\"},\"multi\":false,\"env\":\"prod\",\"messageType\":\"platform_activity_analytics\"}"
+  },
+  {
+    "method": "GET",
+    "url": "https://prod.api.cosmofeed.com/api/wallet/referral/creator/details",
+    "postData": null
+  },
+  {
+    "method": "GET",
+    "url": "https://prod.api.cosmofeed.com/api/adm/list_auto_dms?submissionType=0&page=1&limit=1",
+    "postData": null
+  },
+  {
+    "method": "POST",
+    "url": "https://prod.api.cosmofeed.com/api/wallet/get_all_products_analytics_details",
+    "postData": "{\"range\":\"lifetime\",\"timezone\":\"Asia/Calcutta\"}"
+  },
+  {
+    "method": "GET",
+    "url": "https://prod.api.cosmofeed.com/api/saas/get_cosmo_plans_data",
+    "postData": null
+  },
+  {
+    "method": "GET",
+    "url": "https://prod.api.cosmofeed.com/api/saas/get_active_cosmo_plan_details",
+    "postData": null
+  },
+  {
+    "method": "GET",
+    "url": "https://prod.api.cosmofeed.com/api/adm/get_auto_dm_analytics",
+    "postData": null
+  },
+  {
+    "method": "GET",
+    "url": "https://prod.api.cosmofeed.com/api/adm/list_auto_dms?page=1&limit=12&submissionType=0",
+    "postData": null
+  },
+  {
+    "method": "GET",
+    "url": "https://cdn.cosmofeed.com/_next/static/css/67a81df562ce40de.css",
+    "postData": null
+  },
+  {
+    "method": "GET",
+    "url": "https://superprofile.bio/_next/data/dRyUS4XUEDbhvucybGxB_/creator.json",
+    "postData": null
+  },
+  {
+    "method": "GET",
+    "url": "https://prod.api.cosmofeed.com/api/site/get_upcoming_bookings_events",
+    "postData": null
+  },
+  {
+    "method": "GET",
+    "url": "https://prod.api.cosmofeed.com/api/site/get_creator_product_analytics",
+    "postData": null
+  },
+  {
+    "method": "GET",
+    "url": "https://prod.api.cosmofeed.com/api/site/get_learn_more_and_banner_details",
+    "postData": null
+  },
+  {
+    "method": "GET",
+    "url": "https://prod.api.cosmofeed.com/api/oo/check-session-booked?sessionId=67134f66b6099e0013e4b179",
+    "postData": null
+  },
+  {
+    "method": "GET",
+    "url": "https://prod.api.cosmofeed.com/api/saas/get_earning_in_saas_trial",
+    "postData": null
+  },
+  {
+    "method": "GET",
+    "url": "https://prod.api.cosmofeed.com/api/user/getStartedTodos",
+    "postData": null
+  },
+  {
+    "method": "GET",
+    "url": "https://prod.api.cosmofeed.com/api/user/getUserData",
+    "postData": null
+  },
+  {
+    "method": "GET",
+    "url": "https://prod.api.cosmofeed.com/api/user/get_new_features",
+    "postData": null
+  },
+  {
+    "method": "GET",
+    "url": "https://prod.api.cosmofeed.com/api/adm/get_ongoing_meta_issue",
+    "postData": null
+  },
+  {
+    "method": "GET",
+    "url": "https://prod.api.cosmofeed.com/api/adm/get_ongoing_meta_issue",
+    "postData": null
+  },
+  {
+    "method": "GET",
+    "url": "https://prod.api.cosmofeed.com/api/superProfile/",
+    "postData": null
+  },
+  {
+    "method": "GET",
+    "url": "https://prod.api.cosmofeed.com/api/user/getUserData",
+    "postData": null
+  },
+  {
+    "method": "GET",
+    "url": "https://prod.api.cosmofeed.com/api/adm/get_instagram_details",
+    "postData": null
+  },
+  {
+    "method": "GET",
+    "url": "https://prod.api.cosmofeed.com/api/wallet/referral/creator/details",
+    "postData": null
+  },
+  {
+    "method": "GET",
+    "url": "https://prod.api.cosmofeed.com/api/adm/list_auto_dms?submissionType=0&page=1&limit=1",
+    "postData": null
+  },
+  {
+    "method": "POST",
+    "url": "https://prod.api.cosmofeed.com/api/wallet/get_all_products_analytics_details",
+    "postData": "{\"range\":\"lifetime\",\"timezone\":\"Asia/Calcutta\"}"
+  },
+  {
+    "method": "GET",
+    "url": "https://prod.api.cosmofeed.com/api/saas/get_cosmo_plans_data",
+    "postData": null
+  },
+  {
+    "method": "GET",
+    "url": "https://prod.api.cosmofeed.com/api/saas/get_active_cosmo_plan_details",
+    "postData": null
+  },
+  {
+    "method": "GET",
+    "url": "https://prod.api.cosmofeed.com/api/adm/get_auto_dm_analytics",
+    "postData": null
+  },
+  {
+    "method": "GET",
+    "url": "https://prod.api.cosmofeed.com/api/adm/list_auto_dms?page=1&limit=12&submissionType=0",
+    "postData": null
+  },
+  {
+    "method": "GET",
+    "url": "https://prod.api.cosmofeed.com/api/wallet/referral/creator/details",
+    "postData": null
+  },
+  {
+    "method": "GET",
+    "url": "https://prod.api.cosmofeed.com/api/adm/list_auto_dms?submissionType=0&page=1&limit=1",
+    "postData": null
+  },
+  {
+    "method": "POST",
+    "url": "https://prod.api.cosmofeed.com/api/wallet/get_all_products_analytics_details",
+    "postData": "{\"range\":\"lifetime\",\"timezone\":\"Asia/Calcutta\"}"
+  }
+]

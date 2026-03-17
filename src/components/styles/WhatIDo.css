@@ -20,10 +20,11 @@
 }
 .what-box h2 {
   font-size: calc(4vw + 25px);
-  line-height: calc(4vw + 20px);
+  line-height: 1.1;
   font-weight: 600;
-  margin-right: 10%;
+  margin-right: 25%; /* Shifted more to the left */
   margin-bottom: 100px;
+  white-space: nowrap;
 }
 
 .hat-h2 {
